@@ -5,7 +5,6 @@ cachetools==4.2.4
 certifi==2021.10.8
 charset-normalizer==2.0.7
 click==8.0.3
-Flask @ file:///tmp/build/80754af9/flask_1634118196080/work
 flatbuffers==2.0
 gast==0.4.0
 google-auth==2.3.3
@@ -14,13 +13,10 @@ google-pasta==0.2.0
 grpcio==1.41.1
 h5py==3.5.0
 idna==3.3
-itsdangerous @ file:///tmp/build/80754af9/itsdangerous_1621432558163/work
-Jinja2 @ file:///tmp/build/80754af9/jinja2_1635780242639/work
 keras==2.7.0
 Keras-Preprocessing==1.1.2
 libclang==12.0.0
 Markdown==3.3.4
-MarkupSafe @ file:///C:/ci/markupsafe_1621528502553/work
 numpy==1.21.4
 oauthlib==3.1.1
 opencv-python==4.5.4.58
@@ -41,6 +37,5 @@ tensorflow-io-gcs-filesystem==0.22.0
 termcolor==1.1.0
 typing-extensions==3.10.0.2
 urllib3==1.26.7
-Werkzeug @ file:///tmp/build/80754af9/werkzeug_1635505089296/work
 wincertstore==0.2
 wrapt==1.13.3
