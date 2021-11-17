@@ -1,3 +1,5 @@
+import os
+
 from flask import Flask, request
 from tensorflow import keras
 import numpy as np
@@ -31,7 +33,7 @@ def home():
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(port=os.environ.get('PORT', 5000))
 
 valid_characters = "0123456789abcdefghijklmnopqrstuvwxyz"
 
